@@ -11,7 +11,7 @@
   <meta property="og:locale" content="ru_RU">
   <title>Чёрные сердечки, красивые кадры ♡ phone diary</title>
   <link rel="icon" href="assets/heart.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20261113-2">
 </head>
 <body>
   <a class="skip-link" href="#phones">Перейти к телефонам</a>
@@ -44,8 +44,8 @@
         <div class="cover-bottom">
           <div class="cover-copy"><p>И батарея, которая доживёт до финального дубля. Собрали телефоны для видео, селфи и всего, что хочется сохранить.</p><a class="primary-link" href="#start">найти свой телефон <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 5L19 19M7 19H19V7"/></svg></a><div class="cover-meta"><span>9 кандидатов</span><span>40–50 тыс. ₽</span><span>честно о минусах</span></div></div>
           <div class="polaroid-stack" aria-label="Основные кандидаты">
-            <a class="polaroid polaroid-back" href="#oneplus-15r"><span class="tape"></span><img id="hero-oneplus" src="assets/oneplus-15r.webp" alt="OnePlus 15R" width="150" height="175"><span>живучий ♡</span></a>
-            <a class="polaroid polaroid-front" href="#samsung-s26-fe"><span class="tape"></span><img id="hero-samsung" src="assets/samsung-s26-fe.webp" alt="Samsung Galaxy S26 FE" width="150" height="175"><span>снимаем всё</span></a>
+            <a class="polaroid polaroid-back" href="assets/oneplus-15r.webp" data-photo="oneplus-15r" aria-haspopup="dialog" aria-label="Рассмотреть фото OnePlus 15R"><span class="tape"></span><img id="hero-oneplus" src="assets/oneplus-15r.webp" alt="OnePlus 15R" width="150" height="175"><span>живучий ♡</span></a>
+            <a class="polaroid polaroid-front" href="assets/samsung-s26-fe.webp" data-photo="samsung-s26-fe" aria-haspopup="dialog" aria-label="Рассмотреть фото Samsung Galaxy S26 FE"><span class="tape"></span><img id="hero-samsung" src="assets/samsung-s26-fe.webp" alt="Samsung Galaxy S26 FE" width="150" height="175"><span>снимаем всё</span></a>
             <span class="scribble" aria-hidden="true">новый краш?</span><span class="cover-spark" aria-hidden="true">✧</span>
           </div>
         </div>
@@ -68,7 +68,7 @@
           <div class="filter-row" aria-label="Фильтр по сценарию"><button type="button" class="filter-chip active" data-filter="all" aria-pressed="true">все телефоны</button><button type="button" class="filter-chip" data-filter="selfie" aria-pressed="false">снимаю себя</button><button type="button" class="filter-chip" data-filter="photo" aria-pressed="false">фото и портреты</button><button type="button" class="filter-chip" data-filter="battery" aria-pressed="false">батарея</button><button type="button" class="filter-chip" data-filter="favorites" aria-pressed="false">♡ мои любимчики</button></div>
           <div class="budget-row"><label for="budget">Мой предел</label><select id="budget"><option value="50000">50 000 ₽</option><option value="40000">40 000 ₽</option></select><span id="filter-count" role="status" aria-live="polite"></span><button type="button" id="reset-filters" class="text-button" hidden>сбросить</button></div>
         </div>
-        <p class="price-caption">Цены проверены 13.11.2026. Наличные, без доставки. Условия конкретной версии — в каждой записи; актуальную сумму проверь по ссылке магазина.</p>
+        <p class="price-caption">Цены — ориентиры по другим магазинам на 13.11.2026, без доставки. Кнопки Яндекс Маркета и Ozon открывают поиск нужной модели и памяти; стоимость и продавца проверь на площадке. Источник каждой цены — внутри карточки. Нажми на фото, чтобы рассмотреть телефон.</p>
         <div class="phone-grid" id="phone-grid"></div>
         <div class="empty-state" id="empty-state" hidden><span aria-hidden="true">♡</span><h3>Пока пусто. Это временно.</h3><p id="empty-copy">Нажми на сердечко у понравившегося телефона — он появится здесь.</p><button type="button" class="primary-link" id="empty-reset">показать все телефоны ↗</button></div>
         <noscript><p class="no-script">Для фильтров и карточек включи JavaScript. Краткое сравнение и источники доступны в README репозитория.</p></noscript>
@@ -81,14 +81,22 @@
       <section class="compare-section" id="compare" aria-labelledby="compare-title">
         <div class="entry-heading"><span class="entry-date">запись 04</span><h2 id="compare-title">Когда сердечко не определилось</h2></div>
         <div class="compare-controls"><p>Отметь любимчиков ♡ — сравнивать станет проще.</p><label class="check-label"><input type="checkbox" id="compare-favorites"> только мои любимчики</label></div>
-        <div class="table-scroll" role="region" aria-label="Таблица сравнения телефонов, можно прокрутить по горизонтали" tabindex="0"><table><caption>Главные различия телефонов</caption><thead><tr><th scope="col">Телефон</th><th scope="col">Цена / память</th><th scope="col">Съёмка себя</th><th scope="col">Батарея / зарядка</th><th scope="col">Главный компромисс</th></tr></thead><tbody id="comparison-body"></tbody></table></div><p id="comparison-empty" class="compare-empty" hidden>Сначала отметь хотя бы один телефон сердечком в карточке выше.</p><p class="table-hint">На маленьком экране таблица прокручивается вправо →</p>
+        <div class="table-scroll" role="region" aria-label="Таблица сравнения телефонов, можно прокрутить по горизонтали" tabindex="0"><table><caption>Главные различия телефонов</caption><thead><tr><th scope="col">Телефон</th><th scope="col">Цена-ориентир / память</th><th scope="col">Съёмка себя</th><th scope="col">Батарея / зарядка</th><th scope="col">Главный компромисс</th></tr></thead><tbody id="comparison-body"></tbody></table></div><p id="comparison-empty" class="compare-empty" hidden>Сначала отметь хотя бы один телефон сердечком в карточке выше.</p><p class="table-hint">На маленьком экране таблица прокручивается вправо →</p>
       </section>
       <section class="last-note" aria-labelledby="last-title"><span class="tape"></span><span class="last-note-star" aria-hidden="true">✳</span><h2 id="last-title">Маленькая записка перед покупкой</h2><div class="note-columns"><p><strong>256 ГБ — комфортный ориентир.</strong> Исходники и монтаж быстро съедают память. Pixel 9 на 128 ГБ тоже имеет смысл, если регулярно переносить видео.</p><p><strong>Проверь полный чек.</strong> Доставка, зарядник и способ оплаты могут изменить цену. Особенно у OnePlus 15R: предложение за 49 990 ₽ почти не оставляет запаса.</p><p><strong>Камера телефона ≠ камера внутри TikTok.</strong> Режимы в этом дневнике относятся к штатному приложению. Его возможности удобнее использовать, загружая в TikTok готовый ролик.</p></div><span class="note-sign">выбирай то, чем захочется снимать ♡</span></section>
       <footer id="footnotes" class="page-footer"><div class="footer-brand">dead battery <i>diary</i><span>♡</span></div><p>Небольшой гид для большого количества красивых кадров.<br>Подборка от 13 ноября 2026. Без партнёрских ссылок и выдуманных рейтингов.</p><details class="sources-details"><summary>Откуда взялись характеристики, выводы и фотографии <span>+</span></summary><div id="all-sources"></div><p>Фотографии устройств принадлежат производителям и соответствующим магазинам. В дневнике используются для иллюстрации моделей; цвета конкретной партии могут отличаться. Оценки — вывод из опубликованных обзоров, а не собственный тест всех телефонов в одинаковых условиях.</p></details><div class="footer-bottom"><a href="https://github.com/loudless/phonechoice" target="_blank" rel="noopener noreferrer">исходники ↗</a><span>никакой музыки без спроса. только сердечки.</span><a href="#top">наверх ↑</a></div></footer>
     </main>
   </div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="phones.js"></script>
-  <script src="app.js"></script>
+  <dialog class="photo-dialog" id="photo-viewer" aria-labelledby="photo-title" aria-describedby="photo-description">
+    <div class="photo-shell">
+      <header class="photo-header"><div><span class="small-label">рассматриваем поближе</span><h2 id="photo-title"></h2></div><button type="button" id="photo-close" class="photo-close" aria-label="Закрыть фото" autofocus><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 5L19 19M19 5L5 19"/></svg></button></header>
+      <div class="photo-toolbar"><span id="photo-dimensions" role="status" aria-live="polite"></span><button type="button" id="photo-zoom" aria-pressed="false">Размер 100%</button><a id="photo-original" target="_blank" rel="noopener noreferrer">Открыть оригинал ↗</a></div>
+      <div class="photo-stage" id="photo-stage" tabindex="0" aria-label="Фотография телефона. Увеличенное изображение можно прокручивать"><button type="button" class="photo-canvas" id="photo-canvas" aria-label="Увеличить фото до оригинального размера"><img id="photo-full" alt=""></button></div>
+      <footer class="photo-footer"><p id="photo-description">Фото иллюстрирует модель. Цвет и комплектация могут отличаться от предложения продавца.</p><a id="photo-source" target="_blank" rel="noopener noreferrer">Источник фото ↗</a></footer>
+    </div>
+  </dialog>
+  <script src="phones.js?v=20261113-2"></script>
+  <script src="app.js?v=20261113-2"></script>
 </body>
 </html>

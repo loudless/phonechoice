@@ -38,7 +38,12 @@ window.PHONE_DIARY = [
     "shortCompromise": "По автономности уступает OnePlus. Адаптер отдельно.",
     "storeName": "ManyPhone",
     "image": "assets/samsung-s26-fe.webp",
-    "imageSource": "https://manyphone.ru/catalog/smartfony/samsung/samsung-galaxy-s26-fe/"
+    "imageSource": "https://manyphone.ru/catalog/smartfony/samsung/samsung-galaxy-s26-fe/",
+    "marketplaces": {
+      "yandex": "https://market.yandex.ru/search?text=Samsung+Galaxy+S26+FE+8%2F256",
+      "ozon": "https://www.ozon.ru/search/?text=Samsung+Galaxy+S26+FE+8%2F256"
+    },
+    "marketplaceQuery": "Samsung Galaxy S26 FE 8/256"
   },
   {
     "id": "pixel-10a",
@@ -78,7 +83,12 @@ window.PHONE_DIARY = [
     "shortCompromise": "Камера близка к 9a. Полная зарядка в тесте — около 1,5 часа.",
     "storeName": "Desota",
     "image": "assets/pixel-10a.jpg",
-    "imageSource": "https://techmart.ru/smartfon_google_pixel_10a_8_256_gb_chyornyj_obsidian"
+    "imageSource": "https://techmart.ru/smartfon_google_pixel_10a_8_256_gb_chyornyj_obsidian",
+    "marketplaces": {
+      "yandex": "https://market.yandex.ru/search?text=Google+Pixel+10a+8%2F256",
+      "ozon": "https://www.ozon.ru/search/?text=Google+Pixel+10a+8%2F256"
+    },
+    "marketplaceQuery": "Google Pixel 10a 8/256"
   },
   {
     "id": "oneplus-15r",
@@ -120,7 +130,12 @@ window.PHONE_DIARY = [
     "shortCompromise": "49 990 ₽ только при подходящей оплате и самовывозе. Нет адаптера.",
     "storeName": "Технолидер24",
     "image": "assets/oneplus-15r.webp",
-    "imageSource": "https://www.power.fi/puhelimet-ja-kamerat/puhelimet/oneplus-15r-512-gt-charcoal-black/p-4220285/"
+    "imageSource": "https://www.power.fi/puhelimet-ja-kamerat/puhelimet/oneplus-15r-512-gt-charcoal-black/p-4220285/",
+    "marketplaces": {
+      "yandex": "https://market.yandex.ru/search?text=OnePlus+15R+12%2F256",
+      "ozon": "https://www.ozon.ru/search/?text=OnePlus+15R+12%2F256"
+    },
+    "marketplaceQuery": "OnePlus 15R 12/256"
   },
   {
     "id": "vivo-v70",
@@ -161,7 +176,12 @@ window.PHONE_DIARY = [
     "shortCompromise": "Фронтальное 4K без стабилизации по тесту Sulit.",
     "storeName": "GIX",
     "image": "assets/vivo-v70.webp",
-    "imageSource": "https://gix.ru/catalog/smartfony-vivo/smartfon_vivo_v70_8_256gb_grey/"
+    "imageSource": "https://gix.ru/catalog/smartfony-vivo/smartfon_vivo_v70_8_256gb_grey/",
+    "marketplaces": {
+      "yandex": "https://market.yandex.ru/search?text=vivo+V70+8%2F256",
+      "ozon": "https://www.ozon.ru/search/?text=vivo+V70+8%2F256"
+    },
+    "marketplaceQuery": "vivo V70 8/256"
   },
   {
     "id": "oneplus-nord-6",
@@ -201,7 +221,12 @@ window.PHONE_DIARY = [
     "shortCompromise": "Фронтальный 4K может заметно трястись. Проверь регион.",
     "storeName": "МСК Каталог",
     "image": "assets/oneplus-nord-6.webp",
-    "imageSource": "https://www.oneplus.com/global/nord-6"
+    "imageSource": "https://www.oneplus.com/global/nord-6",
+    "marketplaces": {
+      "yandex": "https://market.yandex.ru/search?text=OnePlus+Nord+6+8%2F256",
+      "ozon": "https://www.ozon.ru/search/?text=OnePlus+Nord+6+8%2F256"
+    },
+    "marketplaceQuery": "OnePlus Nord 6 8/256"
   },
   {
     "id": "xiaomi-17t",
@@ -241,7 +266,12 @@ window.PHONE_DIARY = [
     "shortCompromise": "Фронталка заметно скромнее задних камер.",
     "storeName": "Techmart",
     "image": "assets/xiaomi-17t.jpg",
-    "imageSource": "https://techmart.ru/smartfony_na_android/smartfony_xiaomi/xiaomi_17/smartfon_xiaomi_17t_12_256_gb_chyornyj"
+    "imageSource": "https://techmart.ru/smartfony_na_android/smartfony_xiaomi/xiaomi_17/smartfon_xiaomi_17t_12_256_gb_chyornyj",
+    "marketplaces": {
+      "yandex": "https://market.yandex.ru/search?text=Xiaomi+17T+12%2F256",
+      "ozon": "https://www.ozon.ru/search/?text=Xiaomi+17T+12%2F256"
+    },
+    "marketplaceQuery": "Xiaomi 17T 12/256"
   },
   {
     "id": "nothing-phone-3",
@@ -283,7 +313,12 @@ window.PHONE_DIARY = [
     "shortCompromise": "Средняя автономность, нагрев при продолжительной съёмке.",
     "storeName": "BigGeek",
     "image": "assets/nothing-phone-3.jpg",
-    "imageSource": "https://biggeek.ru/products/smartfon-nothing-phone-3-12-plus-256-gb-black"
+    "imageSource": "https://biggeek.ru/products/smartfon-nothing-phone-3-12-plus-256-gb-black",
+    "marketplaces": {
+      "yandex": "https://market.yandex.ru/search?text=Nothing+Phone+%283%29+12%2F256",
+      "ozon": "https://www.ozon.ru/search/?text=Nothing+Phone+%283%29+12%2F256"
+    },
+    "marketplaceQuery": "Nothing Phone (3) 12/256"
   },
   {
     "id": "pixel-9",
@@ -323,7 +358,12 @@ window.PHONE_DIARY = [
     "shortCompromise": "128 ГБ потребуют чаще выгружать исходники.",
     "storeName": "ПлэйЛаб",
     "image": "assets/pixel-9.jpg",
-    "imageSource": "https://techmart.ru/smartfon_google_pixel_9_12_256gb_chyornyj_obsidian"
+    "imageSource": "https://techmart.ru/smartfon_google_pixel_9_12_256gb_chyornyj_obsidian",
+    "marketplaces": {
+      "yandex": "https://market.yandex.ru/search?text=Google+Pixel+9+12%2F128",
+      "ozon": "https://www.ozon.ru/search/?text=Google+Pixel+9+12%2F128"
+    },
+    "marketplaceQuery": "Google Pixel 9 12/128"
   },
   {
     "id": "pixel-9a",
@@ -363,6 +403,11 @@ window.PHONE_DIARY = [
     "shortCompromise": "Ночью основное видео мягче, чем у Pixel 9. Зарядка неспешная.",
     "storeName": "МСК Каталог",
     "image": "assets/pixel-9a.jpg",
-    "imageSource": "https://techmart.ru/smartfon_google_pixel_9a_8_256_gb_chyornyj_obsidian"
+    "imageSource": "https://techmart.ru/smartfon_google_pixel_9a_8_256_gb_chyornyj_obsidian",
+    "marketplaces": {
+      "yandex": "https://market.yandex.ru/search?text=Google+Pixel+9a+8%2F256",
+      "ozon": "https://www.ozon.ru/search/?text=Google+Pixel+9a+8%2F256"
+    },
+    "marketplaceQuery": "Google Pixel 9a 8/256"
   }
 ];
